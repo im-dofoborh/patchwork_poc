@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Foundations index page renders 1`] = `
+<section>
+  <div class="sg-content-editor editor-content"><a href="https://github.immediate.co.uk/WCP/patchwork/edit/develop/content/foundations.md" target="_blank" class="sg-content-editor__link">
+      Edit on GitHub
+    </a>
+    <div class="mt-md">Mock content</div>
+  </div>
+</section>
+`;

@@ -1,0 +1,23 @@
+// Copied from im-fabric
+//
+// If we're going to reruse themes accross platforms this should really
+// be importable as a versioned npm package.
+
+$spacing-units-px: (
+  xxs: 5px,
+  xs: 10px,
+  sm: 15px,
+  md: 20px,
+  lg: 30px,
+  xl: 40px,
+  xxl: 60px
+);
+
+@function spacing-unit($key) {
+  @if map-has-key($spacing-units-px, $key) {
+    @return map-get($spacing-units-px, $key);
+  }
+
+  @warn 'Unknown `#{$key}` in $spacing-units-px.';
+  @return null;
+}

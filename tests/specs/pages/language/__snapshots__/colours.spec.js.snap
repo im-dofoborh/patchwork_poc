@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colours page renders 1`] = `
+<section class="sg-colours-page">
+  <div class="sg-content container">
+    <div class="sg-content__header">
+      <h1 class="heading-1">Colours</h1>
+    </div>
+    <div class="sg-content__section">
+      <div class="editor-content">
+        <p>
+          These are all of the colours currently declared in the
+          Slate color.scss theme. It does not mean that
+          all of these are in use. You will also have access to all of the
+          colours in the parent theme, provided that you have not overridden
+          them.
+        </p>
+      </div>
+      <div class="sg-sample-grid mt-lg"></div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Colours page renders with loaded data 1`] = `
+<section class="sg-colours-page">
+  <div class="sg-content container">
+    <div class="sg-content__header">
+      <h1 class="heading-1">Colours</h1>
+    </div>
+    <div class="sg-content__section">
+      <div class="editor-content">
+        <p>
+          These are all of the colours currently declared in the
+          Slate color.scss theme. It does not mean that
+          all of these are in use. You will also have access to all of the
+          colours in the parent theme, provided that you have not overridden
+          them.
+        </p>
+      </div>
+      <div class="sg-sample-grid mt-lg">
+        <div>
+          <div class="sg-colours-page__palette">
+            <div class="sg-colours-page__palette-swatch" style="background-color: rgb(33, 189, 255);"></div>
+            <div class="sg-colours-page__palette-name"><code>$color--highlight--light</code></div>
+            <div class="sg-colours-page__palette-hex"><code>#21bdff</code></div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <div>
+          <div class="sg-colours-page__palette">
+            <div class="sg-colours-page__palette-swatch" style="background-color: rgb(0, 123, 182);"></div>
+            <div class="sg-colours-page__palette-name"><code>$color--highlight--regular</code></div>
+            <div class="sg-colours-page__palette-hex"><code>#007bb6</code></div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <div>
+          <div class="sg-colours-page__palette">
+            <div class="sg-colours-page__palette-swatch" style="background-color: rgb(0, 89, 130);"></div>
+            <div class="sg-colours-page__palette-name"><code>$color--highlight--dark</code></div>
+            <div class="sg-colours-page__palette-hex"><code>#005982</code></div>
+            <div class="sg-colours-page__palette-note">
+              <p class="sg-colours-page__palette-note-text">From:</p> <code>
+                #000
+              </code>
+            </div>
+            <div class="sg-colours-page__palette-note">
+              <p class="sg-colours-page__palette-note-text">
+                These comments are probably never used
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

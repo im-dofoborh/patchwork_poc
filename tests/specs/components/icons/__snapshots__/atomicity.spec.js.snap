@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AtomicityIcon component renders default variant 1`] = `
+<a href="#/components/list?search=todo" class="">
+  <div title="todo" class="sg-letter-icon" style="width: 30px;">
+    <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(11, 37, 51); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+      T
+    </div>
+  </div>
+</a>
+`;
+
+exports[`AtomicityIcon component uses fallback colour for invalid atomicity 1`] = `
+<a href="#/components/list?search=foo" class="">
+  <div title="foo" class="sg-letter-icon" style="width: 30px;">
+    <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(33, 189, 255); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+      F
+    </div>
+  </div>
+</a>
+`;

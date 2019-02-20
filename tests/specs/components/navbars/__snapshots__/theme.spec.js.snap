@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeNavbar component renders default variant 1`] = `
+<nav class="sg-theme-navbar"><select autocomplete="off" class="sg-theme-navbar__select">
+    <option> -- View in Brand -- </option>
+    <option value="slate">Slate</option>
+  </select></nav>
+`;

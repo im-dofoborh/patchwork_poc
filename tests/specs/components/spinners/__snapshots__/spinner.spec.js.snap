@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component renders default variant 1`] = `
+<div class="sg-spinner">
+  <div name="fade">
+    <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+      <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+        P
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner component renders large variant 1`] = `
+<div class="sg-spinner">
+  <div name="fade">
+    <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+      <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+        P
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner component renders light variant 1`] = `
+<div class="sg-spinner">
+  <div name="fade">
+    <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+      <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+        P
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner component renders medium variant as fallback 1`] = `
+<div class="sg-spinner">
+  <div name="fade">
+    <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+      <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+        P
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner component renders small variant 1`] = `
+<div class="sg-spinner">
+  <div name="fade">
+    <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+      <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+        P
+      </div>
+    </div>
+  </div>
+</div>
+`;

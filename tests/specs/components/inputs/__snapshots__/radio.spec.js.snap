@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioInput component renders default variant 1`] = `
+<div class="sg-input-radio input-radio"><input id="baz" name="bar" type="radio" class="input-radio__input" value="foo"> <label for="baz" class="input-radio__label js-supress-focus-on-click">
+    foo
+  </label></div>
+`;

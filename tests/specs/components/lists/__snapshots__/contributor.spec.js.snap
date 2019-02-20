@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContributorList component renders default variant 1`] = `<span name="fade" tag="ul" class="sg-contributor-list"></span>`;
+
+exports[`ContributorList component renders with contributors 1`] = `<span name="fade" tag="ul" class="sg-contributor-list"><li class="sg-contributor-list__item"><a href="https://github.com/foo" title="Foo" target="_blank" class="sg-contributor-list__link"></a></li><li class="sg-contributor-list__item"><a href="https://github.com/bar" title="Bar" target="_blank" class="sg-contributor-list__link"></a></li></span>`;

@@ -1,0 +1,17 @@
+$sg-layout-sidebar-width: 230px;
+$sg-layout-top-nav-height: 50px;
+$sg-layout-theme-nav-height: 40px;
+
+// padding and border around the iframe + scrollbar + sidebars
+$sg-component-stuff-around: (
+  $sg-layout-sidebar-width * 2
+  + spacing-unit(lg) * 2
+  + spacing-unit(sm) * 2
+);
+
+$sg-component-breakpoints: (
+  xs: map-get($grid-breakpoints, xs) + $sg-component-stuff-around,
+  sm: map-get($grid-breakpoints, sm) + $sg-component-stuff-around,
+  md: map-get($grid-breakpoints, md) + $sg-component-stuff-around,
+  lg: map-get($grid-breakpoints, lg) + $sg-component-stuff-around,
+);

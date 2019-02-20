@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentEditor component renders default variant 1`] = `
+<iframe srcdoc="
+        <!doctype>
+        <html>
+          <head>
+            <link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/css/app.css&quot;>
+            <script>
+              window.webpackManifest = {&quot;0&quot;: &quot;js/0.js&quot;, &quot;1&quot;: &quot;js/1.js&quot;};
+              window.chunkURL = 'https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/'; // For dynamic cross-domain importing of chunks
+            </script>
+          </head>
+          <body class=&quot;&quot; style=&quot;background-color: transparent;&quot;>
+            
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/vendor.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/app.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/grunticon-1f6ae85a3d.loader.js&quot;></script>
+            <script>
+              window.onload = function () {
+                grunticon(
+                  [&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-adb1c72d37.data.svg.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-27488828d3.data.png.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-61b5c20abf.fallback.css&quot;],
+                  grunticon.svgLoadedCORSCallback
+                );
+              };
+            </script>
+            <script>
+              (function(d) {
+                var config = {
+                  kitId: 'sts5pxq',
+                  scriptTimeout: 3000,
+                  async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/wf-loading/g,&quot;&quot;)+&quot; wf-inactive&quot;;},config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+              })(document);
+            </script>
+          </body>
+        </html>
+      " scrolling="no" class="sg-themed-iframe" style="height: 0px;"></iframe>
+`;
+
+exports[`ContentEditor component renders small variant 1`] = `
+<iframe srcdoc="
+        <!doctype>
+        <html>
+          <head>
+            <link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/css/app.css&quot;>
+            <script>
+              window.webpackManifest = {&quot;0&quot;: &quot;js/0.js&quot;, &quot;1&quot;: &quot;js/1.js&quot;};
+              window.chunkURL = 'https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/'; // For dynamic cross-domain importing of chunks
+            </script>
+          </head>
+          <body class=&quot;&quot; style=&quot;background-color: transparent;&quot;>
+            
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/vendor.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/app.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/grunticon-1f6ae85a3d.loader.js&quot;></script>
+            <script>
+              window.onload = function () {
+                grunticon(
+                  [&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-adb1c72d37.data.svg.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-27488828d3.data.png.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-61b5c20abf.fallback.css&quot;],
+                  grunticon.svgLoadedCORSCallback
+                );
+              };
+            </script>
+            <script>
+              (function(d) {
+                var config = {
+                  kitId: 'sts5pxq',
+                  scriptTimeout: 3000,
+                  async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/wf-loading/g,&quot;&quot;)+&quot; wf-inactive&quot;;},config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+              })(document);
+            </script>
+          </body>
+        </html>
+      " scrolling="no" class="sg-themed-iframe sg-themed-iframe--sm" style="height: 0px;"></iframe>
+`;
+
+exports[`ContentEditor component renders unwrapped variant 1`] = `<iframe srcdoc="<div class=&quot;foo&quot;>My Markup</div>" scrolling="no" class="sg-themed-iframe" style="height: 0px;"></iframe>`;
+
+exports[`ContentEditor component renders with markup 1`] = `
+<iframe srcdoc="
+        <!doctype>
+        <html>
+          <head>
+            <link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/css/app.css&quot;>
+            <script>
+              window.webpackManifest = {&quot;0&quot;: &quot;js/0.js&quot;, &quot;1&quot;: &quot;js/1.js&quot;};
+              window.chunkURL = 'https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/'; // For dynamic cross-domain importing of chunks
+            </script>
+          </head>
+          <body class=&quot;&quot; style=&quot;background-color: transparent;&quot;>
+            <div class=&quot;foo&quot;>My Markup</div>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/vendor.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-slate-theme/dist/js/app.js&quot;></script>
+            <script type=&quot;text/javascript&quot; src=&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/grunticon-1f6ae85a3d.loader.js&quot;></script>
+            <script>
+              window.onload = function () {
+                grunticon(
+                  [&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-adb1c72d37.data.svg.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-27488828d3.data.png.css&quot;,&quot;https://slate.local.wcp.imdserve.com/wcp/themes/im-fabric/dist/icons/icons-61b5c20abf.fallback.css&quot;],
+                  grunticon.svgLoadedCORSCallback
+                );
+              };
+            </script>
+            <script>
+              (function(d) {
+                var config = {
+                  kitId: 'sts5pxq',
+                  scriptTimeout: 3000,
+                  async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/wf-loading/g,&quot;&quot;)+&quot; wf-inactive&quot;;},config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+              })(document);
+            </script>
+          </body>
+        </html>
+      " scrolling="no" class="sg-themed-iframe" style="height: 0px;"></iframe>
+`;

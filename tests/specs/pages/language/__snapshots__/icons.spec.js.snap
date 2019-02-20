@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons page renders 1`] = `
+<section class="sg-icons-page">
+  <div class="sg-content container editor-content">
+    <div class="sg-content__header">
+      <h1 class="heading-1">Icons</h1>
+    </div>
+    <section class="sg-content__section">
+      <h2>Using icons</h2>
+      <p>
+        Icons are supplied in SVG format and accessed as a background image
+        on an element decorated with the class name for the required icon.
+        For example, to apply the arrow icon you would use
+        <code>
+          &lt;i class="icon-arrow" /&gt;
+        </code>
+        As the size of an icon will
+        vary depending on the component it is within, it does not get given a
+        size by default. Typically you would want to include the icon as part
+        of your BEM block
+        <code>
+          &lt;i class="bem-block__icon icon-arrow" /&gt;
+        </code>
+        to allow you to
+        apply sizing and positioning to your icon within the component.
+      </p>
+      <p>
+        To apply CSS, including animations, to an icon you may optionally add
+        the attribute <code>data-grunticon-embed</code> to the icon element.
+        For example,
+        <code>
+          &lt;i class="icon-arrow" data-grunticon-embed /&gt;
+        </code>.
+        On page load,
+        the SVG markup will be injected inside this element, allowing you to
+        target elements within the SVG for styling.
+      </p>
+      <p>
+        For the full documentation about our icon build process and usage,
+        including how to add new icons, see the icons page on
+        <a href="https://immediateco.atlassian.net/wiki/spaces/WCPP/pages/5180865/Icons">Confluence</a>.
+      </p>
+    </section>
+    <section class="sg-content__section">
+      <h2>Available icons</h2>
+      <div class="sg-sample-grid mt-lg"></div>
+    </section>
+  </div>
+</section>
+`;

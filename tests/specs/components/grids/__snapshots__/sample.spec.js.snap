@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SampleGrid component renders default variant 1`] = `
+<div class="sg-sample-grid">
+  <div id="some-component"></div>
+</div>
+`;

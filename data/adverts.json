@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Billboard",
+    "height": "250",
+    "width": "970"
+  },
+  {
+    "name": "Leaderboard",
+    "height": "90",
+    "width": "728"
+  },
+  {
+    "name": "Double MPU",
+    "height": "600",
+    "width": "300"
+  },
+  {
+    "name": "Single MPU",
+    "height": "250",
+    "width": "300",
+    "notes": "Also referred to as 300x251 and 300x252 to enable specific campaign targeting of individual MPUs when two are on the page"
+  },
+  {
+    "name": "Mobile Mega Banner",
+    "height": "125",
+    "width": "300"
+  },
+  {
+    "name": "Mobile Banner",
+    "height": "50",
+    "width": "300"
+  },
+  {
+    "name": "Mobile Banner",
+    "height": "50",
+    "width": "320"
+  }
+]

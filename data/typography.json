@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Heading 1",
+    "class": "heading-1",
+    "mockElement": "h1",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h1"
+  },
+  {
+    "name": "Heading 2",
+    "class": "heading-2",
+    "mockElement": "h2",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h2"
+  },
+  {
+    "name": "Heading 3",
+    "class": "heading-3",
+    "mockElement": "h3",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h3"
+  },
+  {
+    "name": "Heading 4",
+    "class": "heading-4",
+    "mockElement": "h4",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h4"
+  },
+  {
+    "name": "Heading 5",
+    "class": "heading-5",
+    "mockElement": "h5",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h5"
+  },
+  {
+    "name": "Heading 6",
+    "class": "heading-6",
+    "mockElement": "h6",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h6"
+  },
+  {
+    "name": "Heading 7",
+    "class": "heading-7",
+    "mockElement": "h6",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-h7"
+  },
+  {
+    "name": "Section Heading 1",
+    "class": "section-heading-1",
+    "mockElement": "p",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-section-heading-1"
+  },
+  {
+    "name": "Section Heading 2",
+    "class": "section-heading-2",
+    "mockElement": "p",
+    "mockData": "The quick brown fox jumps over the lazy dog",
+    "variablePrefix": "$text-section-heading-2"
+  },
+  {
+    "name": "Body Copy",
+    "class": "body-copy",
+    "mockElement": "p",
+    "mockData": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet imperdiet eros. Nulla vitae viverra enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sit amet ante vestibulum, lobortis arcu non, pharetra tellus. Etiam aliquam est quis erat blandit aliquet. Integer quis ante vel tortor tincidunt feugiat. Sed volutpat convallis enim volutpat suscipit. Quisque porttitor tristique elit, at lacinia tortor placerat eget. Vivamus suscipit tempor scelerisque. Mauris dignissim enim vel lectus cursus, sed iaculis leo porta. In dui lacus, tempus ut faucibus et, scelerisque at tortor. Phasellus faucibus lorem quis est pellentesque, at vulputate nibh volutpat. Integer hendrerit metus eu ligula porta placerat. Nullam posuere felis eget ante lobortis, id luctus libero tempor. Sed vitae congue est. Donec lacinia orci et molestie vulputate.",
+    "variablePrefix": "$text-body-copy"
+  },
+  {
+    "name": "Body Copy Large",
+    "class": "body-copy-large",
+    "mockElement": "p",
+    "mockData": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet imperdiet eros. Nulla vitae viverra enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sit amet ante vestibulum, lobortis arcu non, pharetra tellus. Etiam aliquam est quis erat blandit aliquet. Integer quis ante vel tortor tincidunt feugiat. Sed volutpat convallis enim volutpat suscipit. Quisque porttitor tristique elit, at lacinia tortor placerat eget. Vivamus suscipit tempor scelerisque. Mauris dignissim enim vel lectus cursus, sed iaculis leo porta. In dui lacus, tempus ut faucibus et, scelerisque at tortor. Phasellus faucibus lorem quis est pellentesque, at vulputate nibh volutpat. Integer hendrerit metus eu ligula porta placerat. Nullam posuere felis eget ante lobortis, id luctus libero tempor. Sed vitae congue est. Donec lacinia orci et molestie vulputate.",
+    "variablePrefix": "$text-body-copy-large"
+  },
+  {
+    "name": "Body Copy Small",
+    "class": "body-copy-small",
+    "mockElement": "p",
+    "mockData": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet imperdiet eros. Nulla vitae viverra enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sit amet ante vestibulum, lobortis arcu non, pharetra tellus. Etiam aliquam est quis erat blandit aliquet. Integer quis ante vel tortor tincidunt feugiat. Sed volutpat convallis enim volutpat suscipit. Quisque porttitor tristique elit, at lacinia tortor placerat eget. Vivamus suscipit tempor scelerisque. Mauris dignissim enim vel lectus cursus, sed iaculis leo porta. In dui lacus, tempus ut faucibus et, scelerisque at tortor. Phasellus faucibus lorem quis est pellentesque, at vulputate nibh volutpat. Integer hendrerit metus eu ligula porta placerat. Nullam posuere felis eget ante lobortis, id luctus libero tempor. Sed vitae congue est. Donec lacinia orci et molestie vulputate.",
+    "variablePrefix": "$text-body-copy-small"
+  },
+  {
+    "name": "Body Copy Extra Small",
+    "class": "body-copy-extra-small",
+    "mockElement": "p",
+    "mockData": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet imperdiet eros. Nulla vitae viverra enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam sit amet ante vestibulum, lobortis arcu non, pharetra tellus. Etiam aliquam est quis erat blandit aliquet. Integer quis ante vel tortor tincidunt feugiat. Sed volutpat convallis enim volutpat suscipit. Quisque porttitor tristique elit, at lacinia tortor placerat eget. Vivamus suscipit tempor scelerisque. Mauris dignissim enim vel lectus cursus, sed iaculis leo porta. In dui lacus, tempus ut faucibus et, scelerisque at tortor. Phasellus faucibus lorem quis est pellentesque, at vulputate nibh volutpat. Integer hendrerit metus eu ligula porta placerat. Nullam posuere felis eget ante lobortis, id luctus libero tempor. Sed vitae congue est. Donec lacinia orci et molestie vulputate.",
+    "variablePrefix": "$text-body-copy-extra-small"
+  }
+]

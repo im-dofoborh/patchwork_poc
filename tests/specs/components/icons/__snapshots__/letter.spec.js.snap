@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LetterIcon component renders alternative size and colour variant 1`] = `
+<div title="Foo" class="sg-letter-icon" style="width: 100px;">
+  <div class="sg-letter-icon__inner" style="height: 100px; width: 100px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 55.55555555555556px;">
+    F
+  </div>
+</div>
+`;
+
+exports[`LetterIcon component renders default variant 1`] = `
+<div title="Unknown" class="sg-letter-icon" style="width: 30px;">
+  <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+    U
+  </div>
+</div>
+`;

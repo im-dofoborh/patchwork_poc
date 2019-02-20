@@ -1,0 +1,14 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  $value: map-get($grid-breakpoints, $breakpoint);
+  @media(min-width: $value) {
+    .hidden-#{$breakpoint}-up {
+      display: none !important;
+    }
+  }
+
+  @media(max-width: $value) {
+    .hidden-#{$breakpoint}-down {
+      display: none !important;
+    }
+  }
+}

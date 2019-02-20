@@ -1,0 +1,136 @@
+{
+  "archive": {
+    "name": "Dolor Purus",
+    "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+  },
+  "recipes": [{
+    "title": "Recipes",
+    "subheading": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
+    "link": "/search/recipes/"
+  }],
+  "pagination": {
+    "current": 2,
+    "total": 3,
+    "pages": [{
+      "class": "page-number page-numbers",
+      "link": "/page/1/",
+      "title": "1",
+      "text": "1",
+      "name": "1",
+      "current": false
+    }, {
+      "class": "page-number page-numbers current",
+      "title": "2",
+      "text": "2",
+      "name": "2",
+      "current": true
+    }, {
+      "class": "page-number page-numbers",
+      "link": "/page/3/",
+      "title": "2",
+      "text": "2",
+      "name": "2",
+      "current": false
+    }],
+    "prev": {
+      "link": "/page/1",
+      "class": "page-numbers prev"
+    },
+    "next": {
+      "link": "/page/3",
+      "class": "page-numbers next"
+    }
+  },
+  "direction": "left",
+  "aria_label": "lorem ipsum",
+  "size_class": "landscape_thumbnail",
+  "taxonomies": [{
+      "name": "lorem",
+        "term": "ipsum"
+  }],
+  "term": {
+    "getSlug": "lorem-ipsum",
+    "getName": "Lorem Ipsum"
+  },
+  "searchTerm": "a",
+  "breadcrumb": [{
+      "title": "Home",
+      "href": "/",
+      "class": ""
+  }, {
+    "title": "Egestas",
+    "href": "/egestas",
+    "class": "breadcrumb__item--mobile"
+  }, {
+    "title": "Vestibulum id ligula porta felis euismod semper.",
+    "href": "/egestas/vestibulum-id-ligula-porta-felis-euismod-semper/",
+    "class": ""
+  }],
+  "post": {
+    "comments": {
+
+    }
+  },
+  "comments_open": "false",
+  "count": "5",
+  "post_tags": [{
+      "tag type 1": [{
+        "term_id": 1,
+        "name": "lorem ipsum",
+        "slug": "lorem-ipsum",
+        "term_group": 0,
+        "term_taxonomy_id": 1,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw",
+        "url": "/tag/lorem-ipsum"
+      }]
+  }, {
+    "tag type 2": [{
+      "term_id": 2,
+      "name": "lorem ipsum dolor",
+      "slug": "lorem-ipsum-dolor",
+      "term_group": 0,
+      "term_taxonomy_id": 2,
+      "taxonomy": "post_tag",
+      "description": "",
+      "parent": 0,
+      "count": 5,
+      "filter": "raw",
+      "url": "/tag/lorem-ipsum-dolor"
+    }]
+  }],
+  "tag": {
+    "title": "Lorem Ipsum",
+    "link": "/tags/lorem-ipsum",
+    "heading": "lorem ipsum dolor sit amet",
+    "subheading": "Sit Cras Dapibus Justo Fringilla"
+  },
+  "cat": {
+    "title": "Lorem Ipsum",
+    "link": "/tags/lorem-ipsum",
+    "subheading": "Sit Cras Dapibus Justo Fringilla"
+  },
+  "social_share": [{
+      "facebook": "1",
+      "twitter": "1",
+      "pinterest": "1",
+      "google": "1",
+      "tumblr": "1",
+      "reddit": "1",
+      "blogger": "1",
+      "vkontakt": "1",
+      "email": "1"
+  },{
+    "post_link": "/egestas/vestibulum-id-ligula-porta-felis-euismod-semper/"
+  }, {
+      "twitter_text": "Vestibulum id ligula porta felis euismod semper."
+  }, {
+    "email_subject": "Vestibulum id ligula porta felis euismod semper."
+  }, {
+    "email_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor."
+  }],
+  "page_number": "1"
+}

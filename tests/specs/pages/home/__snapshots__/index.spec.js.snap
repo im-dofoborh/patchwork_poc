@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page renders 1`] = `
+<section class="sg-landing-page">
+  <div class="sg-landing-page__header">
+    <div class="sg-landing-page__title-block">
+      <h1 class="sg-landing-page__main-title heading-1">
+        Patchwork
+      </h1>
+      <p>
+        Our design system helps us work together to build a great experience
+        for all Immediate Media brands.
+      </p>
+    </div>
+  </div>
+  <section class="sg-landing-page__section container editor-content">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="heading-2" style="cursor: pointer;">
+          Component Library
+        </h2>
+        <p>
+          Our components are a collection of interface elements that can be
+          reused across the Patchwork system. This frees us up to focus on
+          solving unique client challenges, rather than reinventing interface
+          elements that are already in use.
+        </p>
+        <p><a href="#/components" class="">
+            Patchwork Component Library
+          </a></p>
+      </div>
+      <div class="sg-landing-page__right-aligned-col col-md-6">
+        <div class="sg-letter-grid-card hidden-md-down">
+          <div title="P" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 1; bottom: 25px; right: 25px;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              P
+            </div>
+          </div>
+          <div title="a" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.9111111111111111; bottom: 10px; right: 10px;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              A
+            </div>
+          </div>
+          <div title="t" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.8222222222222222;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              T
+            </div>
+          </div>
+          <div title="c" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.7333333333333334;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              C
+            </div>
+          </div>
+          <div title="h" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.6444444444444444;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              H
+            </div>
+          </div>
+          <div title="w" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.5555555555555556;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              W
+            </div>
+          </div>
+          <div title="o" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.4666666666666667;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              O
+            </div>
+          </div>
+          <div title="r" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.37777777777777777;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              R
+            </div>
+          </div>
+          <div title="k" class="sg-letter-icon sg-letter-grid-card__letter" style="width: 80px; opacity: 0.28888888888888886; top: 10px; left: 10px;">
+            <div class="sg-letter-icon__inner" style="height: 80px; width: 80px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 44.44444444444444px;">
+              K
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sg-landing-page__section sg-landing-page__section--foundations container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div title="Patchwork" class="sg-letter-icon sg-landing-page__foundations-icon hidden-md-down" style="width: 210px;">
+            <div class="sg-letter-icon__inner" style="height: 210px; width: 210px; background-color: white; color: rgb(255, 84, 61); font-size: 116.66666666666666px;">
+              P
+            </div>
+          </div>
+        </div>
+        <div class="sg-landing-page__right-aligned-col col-md-6">
+          <h2 class="sg-landing-page__sub-heading heading-2" style="cursor: pointer;">
+            Foundations
+          </h2>
+          <p>
+            The structural foundations define how we lay out content and components.
+            Incorporates the grid, responsive behaviour, accessibility rules, spacing
+            units, image aspect ratios and ad formats. Being so structural makes these
+            far less likely to change between sites.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sg-landing-page__section sg-landing-page__section--language container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="sg-landing-page__sub-heading heading-2">
+            <h2 class="sg-landing-page__sub-heading heading-2" style="cursor: pointer;">
+              Visual Language
+            </h2>
+          </h2>
+          <p>
+            Our library of basic stylistic tools that aim to help us achieve visual
+            consistency throughout Fabric. Covers brand theming, including colours,
+            typography and iconography with Fabric defining the hierarchy and each
+            site tailoring the styles to suit their brand.
+          </p>
+        </div>
+        <div class="sg-landing-page__center-aligned-col col-md-6">
+          <div title="Patchwork" class="sg-letter-icon sg-landing-page__language-icon hidden-md-down" style="width: 210px;">
+            <div class="sg-letter-icon__inner" style="height: 210px; width: 210px; background-color: white; color: rgb(33, 189, 255); font-size: 116.66666666666666px;">
+              P
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;

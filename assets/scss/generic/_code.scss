@@ -1,0 +1,12 @@
+code {
+  box-decoration-break: clone;
+  white-space: normal;
+  background-color: $color--background--extra-light;
+  border-radius: 0.25rem;
+  padding: spacing-unit(xxs);
+  font-family: $code-font-family;
+}
+
+pre {
+  margin: 0;
+}

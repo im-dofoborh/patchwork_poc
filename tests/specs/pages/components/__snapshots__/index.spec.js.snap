@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components index page renders 1`] = `
+<section class="sg-components-overview">
+  <h1 class="heading-1 mb-lg">Component Library</h1>
+  <p class="body-copy-large mb-lg">
+    The component library is largest part of the design system, and displays
+    the variety of components (of different atomicity and purpose) that exist
+    within the Fabric platform.
+  </p>
+  <section class="sg-components-overview__stats">
+    <h2 class="heading-2 mb-md">
+      Component Statistics
+    </h2>
+    <div class="sg-spinner">
+      <div name="fade">
+        <div title="Patchwork" class="sg-letter-icon sg-spinner__letter" style="width: 50px;">
+          <div class="sg-letter-icon__inner" style="height: 50px; width: 50px; background-color: rgba(0, 0, 0, 0.2); color: rgb(255, 255, 255); font-size: 27.77777777777778px;">
+            P
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p class="body-copy mb-md">
+    If you're reading this and there are still some
+    <a href="#/component-list/todos" class="link-copy">
+      ToDos
+    </a>
+    not done, consider adding data for them,
+    so we get a better picture of all the components used in Fabric.
+    <a href="https://immediateco.atlassian.net/wiki/spaces/WCPP/pages/209485934/How+to+add+components+to+styleguide" class="link-copy">
+      Here's how
+    </a></p>
+  <p class="body-copy">
+    All the components used in Fabric are members of 'component families' (listed in the menu).
+    <a href="#/component-list" class="link-copy">
+      View All Components
+    </a></p>
+  <p class="body-copy mb-lg">
+    All components have <strong>properties</strong> that can create different
+    <strong>variations</strong> which serve specific requirements.
+  </p>
+  <h2 class="heading-3 mb-sm">Properties a component can have:</h2>
+  <div class="editor-content">
+    <ul>
+      <li><strong>MODIFIERS: </strong> How the component <em>appears</em></li>
+      <li><strong>ATTRIBUTES: </strong> How the component <em>behaves &amp; appears</em></li>
+      <li><strong>OTHER: </strong> Component specific properties
+      </li>
+    </ul>
+  </div>
+  <h2 class="heading-3 mb-sm mt-lg">Every component should accept:</h2>
+  <div class="editor-content">
+    <ul>
+      <li><strong>modifiers: </strong> every component is styled using BEM classes,
+        so it will already have at least one class. Usually you want to use the format
+        of &lt;component-base-class&gt;--&lt;component-specific-modifier&gt; such as
+        <ul>
+          <li>
+            standard-button--secondary
+          </li>
+          <li>
+            pagination-arrow--next
+          </li>
+          <li>
+            other classes you may want to add would be JS/QA handles for
+            additional JavaScript interactions, or some of our utility classes
+            such as spacing (e.g. "mb-md" which adds 20px margin-bottom to an element)
+          </li>
+        </ul>
+      </li>
+      <li><strong>attributes: </strong> normal HTML tag attributes. E.g
+        <ul>
+          <li>
+            data-something -
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attributes</a>
+            can be used to add arbitrary
+            information to an HTML element, which can then be accessed
+            by JavaScript or CSS.
+          </li>
+          <li>
+            hidden - boolean attribute. Hides element from the page. Can be later
+            shown by some JS interaction.
+          </li>
+          <li>
+            style - if you really really need to override the styling of the element,
+            just in this case. But try not to do that.
+          </li>
+          <li>
+            title - shows a tooltip on hover on mouse-enabled devices
+          </li>
+          <li>
+            any other
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">global</a>
+            or element-specific attributes you may require to modify
+            the component's functionality (except for "class" - we have "modifiers" for that)
+          </li>
+        </ul>
+      </li>
+      <li>
+        other properties: Most components accept additional properties, specific to each component,
+        that will be listed on its Component Details page.
+      </li>
+    </ul>
+  </div>
+</section>
+`;
+
+exports[`Components index page renders stats when components loaded 1`] = `
+<section class="sg-components-overview">
+  <h1 class="heading-1 mb-lg">Component Library</h1>
+  <p class="body-copy-large mb-lg">
+    The component library is largest part of the design system, and displays
+    the variety of components (of different atomicity and purpose) that exist
+    within the Fabric platform.
+  </p>
+  <section class="sg-components-overview__stats">
+    <h2 class="heading-2 mb-md">
+      Component Statistics
+    </h2>
+    <component-stats-card-stub></component-stats-card-stub>
+  </section>
+  <p class="body-copy mb-md">
+    If you're reading this and there are still some
+    <a href="#/component-list/todos" class="link-copy">
+      ToDos
+    </a>
+    not done, consider adding data for them,
+    so we get a better picture of all the components used in Fabric.
+    <a href="https://immediateco.atlassian.net/wiki/spaces/WCPP/pages/209485934/How+to+add+components+to+styleguide" class="link-copy">
+      Here's how
+    </a></p>
+  <p class="body-copy">
+    All the components used in Fabric are members of 'component families' (listed in the menu).
+    <a href="#/component-list" class="link-copy">
+      View All Components
+    </a></p>
+  <p class="body-copy mb-lg">
+    All components have <strong>properties</strong> that can create different
+    <strong>variations</strong> which serve specific requirements.
+  </p>
+  <h2 class="heading-3 mb-sm">Properties a component can have:</h2>
+  <div class="editor-content">
+    <ul>
+      <li><strong>MODIFIERS: </strong> How the component <em>appears</em></li>
+      <li><strong>ATTRIBUTES: </strong> How the component <em>behaves &amp; appears</em></li>
+      <li><strong>OTHER: </strong> Component specific properties
+      </li>
+    </ul>
+  </div>
+  <h2 class="heading-3 mb-sm mt-lg">Every component should accept:</h2>
+  <div class="editor-content">
+    <ul>
+      <li><strong>modifiers: </strong> every component is styled using BEM classes,
+        so it will already have at least one class. Usually you want to use the format
+        of &lt;component-base-class&gt;--&lt;component-specific-modifier&gt; such as
+        <ul>
+          <li>
+            standard-button--secondary
+          </li>
+          <li>
+            pagination-arrow--next
+          </li>
+          <li>
+            other classes you may want to add would be JS/QA handles for
+            additional JavaScript interactions, or some of our utility classes
+            such as spacing (e.g. "mb-md" which adds 20px margin-bottom to an element)
+          </li>
+        </ul>
+      </li>
+      <li><strong>attributes: </strong> normal HTML tag attributes. E.g
+        <ul>
+          <li>
+            data-something -
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">data attributes</a>
+            can be used to add arbitrary
+            information to an HTML element, which can then be accessed
+            by JavaScript or CSS.
+          </li>
+          <li>
+            hidden - boolean attribute. Hides element from the page. Can be later
+            shown by some JS interaction.
+          </li>
+          <li>
+            style - if you really really need to override the styling of the element,
+            just in this case. But try not to do that.
+          </li>
+          <li>
+            title - shows a tooltip on hover on mouse-enabled devices
+          </li>
+          <li>
+            any other
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">global</a>
+            or element-specific attributes you may require to modify
+            the component's functionality (except for "class" - we have "modifiers" for that)
+          </li>
+        </ul>
+      </li>
+      <li>
+        other properties: Most components accept additional properties, specific to each component,
+        that will be listed on its Component Details page.
+      </li>
+    </ul>
+  </div>
+</section>
+`;

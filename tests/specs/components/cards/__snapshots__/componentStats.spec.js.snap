@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentStatsCard component renders default variant 1`] = `
+<section class="sg-component-stats-card">
+  <div class="row">
+    <div class="col-md-4 mb-md">
+      <div class="sg-component-stats-card__section">
+        <p class="heading-1"> 1 </p>
+        <p class="body-copy-large mb-md"> Components </p>
+        <p class="heading-1 mt-md"> 2 </p>
+        <p class="body-copy-large"> Variants </p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-md">
+      <div class="sg-component-stats-card__section">
+        <p class="body-copy-large mb-md"> 3 Atoms </p>
+        <p class="body-copy-large mb-md"> 4 Molecules </p>
+        <p class="body-copy-large mb-md"> 5 Organisms </p>
+        <p class="body-copy-large mb-md"> 6 Template </p>
+        <p class="body-copy-large"> 7 ToDo </p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-md">
+      <div class="sg-component-stats-card__section">
+        <p class="body-copy-large mb-xs"> Most used tags: </p>
+        <div class="mb-md">
+          <div class="sg-component-stats-card__tag"><a href="#/components/list?search=foo" class="standard-tag standard-tag--link mb-xs">
+              foo
+            </a> <sup>12</sup></div>
+          <div class="sg-component-stats-card__tag"><a href="#/components/list?search=bar" class="standard-tag standard-tag--link mb-xs">
+              bar
+            </a> <sup>24</sup></div>
+        </div>
+        <p class="body-copy-large mb-xs"> Least used tags: </p>
+        <div>
+          <div class="sg-component-stats-card__tag"><a href="#/components/list?search=foo" class="standard-tag standard-tag--link mb-xs">
+              foo
+            </a> <sup>48</sup></div>
+          <div class="sg-component-stats-card__tag"><a href="#/components/list?search=bar" class="standard-tag standard-tag--link mb-xs">
+              bar
+            </a> <sup>96</sup></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

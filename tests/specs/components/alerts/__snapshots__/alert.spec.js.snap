@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component renders alternative type variant 1`] = `
+<div class="sg-alert sg-alert--error"><button class="sg-alert__button">
+    ×
+  </button> <small>Look out, this is an alert</small></div>
+`;
+
+exports[`Alert component renders default variant 1`] = `
+<div class="sg-alert sg-alert--info"><button class="sg-alert__button">
+    ×
+  </button> <small>Look out, this is an alert</small></div>
+`;

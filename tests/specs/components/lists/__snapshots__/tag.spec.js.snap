@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagList component renders default variant 1`] = `
+<div class="sg-tag-list">
+  <h3 class="sg-tag-list__title">Tags</h3>
+  <ul class="sg-tag-list__list">
+    <li></li>
+  </ul>
+</div>
+`;
+
+exports[`TagList component renders with multiple tags 1`] = `
+<div class="sg-tag-list">
+  <h3 class="sg-tag-list__title">Tags</h3>
+  <ul class="sg-tag-list__list">
+    <li><a href="#/components/list?search=foo" class=""><span class="sg-tag-list__item">
+          foo
+        </span> <span class="sg-tag-list__seperator body-copy-small">
+          |
+        </span></a><a href="#/components/list?search=bar" class=""><span class="sg-tag-list__item">
+          bar
+        </span> <span class="sg-tag-list__seperator body-copy-small">
+          |
+        </span></a><a href="#/components/list?search=baz" class=""><span class="sg-tag-list__item">
+          baz
+        </span>
+        <!----></a></li>
+  </ul>
+</div>
+`;

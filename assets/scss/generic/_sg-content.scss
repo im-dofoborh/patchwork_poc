@@ -1,0 +1,17 @@
+.sg-content {
+  margin: 0;
+
+  &__header {
+    margin-bottom: spacing-unit(lg);
+  }
+
+  &__section {
+    margin: spacing-unit(xl) 0 spacing-unit(lg);
+  }
+
+  &__row {
+    border-bottom: 1px solid $color--background--light;
+    margin: spacing-unit(xs) 0;
+    padding: spacing-unit(xs) 0;
+  }
+}

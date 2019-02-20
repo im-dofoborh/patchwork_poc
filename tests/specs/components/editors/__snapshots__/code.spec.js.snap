@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeEditor component renders default variant 1`] = `
+<div class="sg-code-editor">
+  <div class="sg-code-editor__editable">
+    <div class="sg-code-editor__editable-text">
+      Editable
+    </div>
+    <div class="sg-code-editor__editable-dot" style="background: green;"></div>
+  </div>
+  <codemirror-stub value="" name="codemirror" placeholder="" options="[object Object]" events="" globaloptions="[object Object]" globalevents=""></codemirror-stub>
+</div>
+`;
+
+exports[`CodeEditor component renders disabled variant 1`] = `
+<div class="sg-code-editor">
+  <div class="sg-code-editor__editable">
+    <div class="sg-code-editor__editable-text">
+      Not Editable
+    </div>
+    <div class="sg-code-editor__editable-dot" style="background: orange;"></div>
+  </div>
+  <codemirror-stub value="" name="codemirror" placeholder="" options="[object Object]" events="" globaloptions="[object Object]" globalevents=""></codemirror-stub>
+</div>
+`;

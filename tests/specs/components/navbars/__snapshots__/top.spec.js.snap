@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNavbar component renders default variant 1`] = `
+<nav class="sg-top-nav">
+  <div class="sg-top-nav__section"><a href="#/" class="router-link-exact-active router-link-active">
+      <div title="Patchwork" class="sg-letter-icon sg-top-nav__icon-small" style="width: 30px;" to="[object Object]">
+        <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+          P
+        </div>
+      </div>
+      <div title="Patchwork" class="sg-letter-icon sg-top-nav__icon-large" style="width: 70px;" to="[object Object]">
+        <div class="sg-letter-icon__inner" style="height: 70px; width: 70px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 38.888888888888886px;">
+          P
+        </div>
+      </div>
+    </a></div>
+  <ul class="sg-top-nav__section sg-top-nav__section--links">
+    <li class="sg-top-nav__item"><a href="#/overview" class="sg-top-nav__link">
+        Overview
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/foundations" class="sg-top-nav__link">
+        Structural Foundations
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/components" class="sg-top-nav__link">
+        Component Library
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/language" class="sg-top-nav__link">
+        Visual Language
+      </a></li>
+  </ul>
+  <div class="sg-top-nav__menu-icon sg-menu-icon">
+    <div class="sg-menu-icon__bar"></div>
+    <div class="sg-menu-icon__bar"></div>
+    <div class="sg-menu-icon__bar"></div>
+  </div>
+</nav>
+`;
+
+exports[`TopNavbar component renders open variant 1`] = `
+<nav class="sg-top-nav">
+  <div class="sg-top-nav__section"><a href="#/" class="router-link-exact-active router-link-active">
+      <div title="Patchwork" class="sg-letter-icon sg-top-nav__icon-small" style="width: 30px;" to="[object Object]">
+        <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+          P
+        </div>
+      </div>
+      <div title="Patchwork" class="sg-letter-icon sg-top-nav__icon-large" style="width: 70px;" to="[object Object]">
+        <div class="sg-letter-icon__inner" style="height: 70px; width: 70px; background-color: rgb(255, 84, 61); color: rgb(255, 255, 255); font-size: 38.888888888888886px;">
+          P
+        </div>
+      </div>
+    </a></div>
+  <ul class="sg-top-nav__section sg-top-nav__section--links">
+    <li class="sg-top-nav__item"><a href="#/overview" class="sg-top-nav__link">
+        Overview
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/foundations" class="sg-top-nav__link">
+        Structural Foundations
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/components" class="sg-top-nav__link">
+        Component Library
+      </a></li>
+    <li class="sg-top-nav__item"><a href="#/language" class="sg-top-nav__link">
+        Visual Language
+      </a></li>
+  </ul>
+  <div class="sg-top-nav__menu-icon sg-menu-icon sg-menu-icon--open">
+    <div class="sg-menu-icon__bar"></div>
+    <div class="sg-menu-icon__bar"></div>
+    <div class="sg-menu-icon__bar"></div>
+  </div>
+</nav>
+`;

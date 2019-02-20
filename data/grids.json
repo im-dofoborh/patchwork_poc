@@ -1,0 +1,62 @@
+{
+  "fluid": [
+    {
+      "name": "Extra Small",
+      "device": "Mobile",
+      "breakpoint": "543",
+      "columns": "12",
+      "container": "100%",
+      "containerPx": "320",
+      "gutter": "20",
+      "outerGutter": "10px"
+    },
+    {
+      "name": "Small",
+      "device": "Phablet",
+      "breakpoint": "544",
+      "breakpointMax": "767",
+      "columns": "12",
+      "container": "576px",
+      "containerPx": "576",
+      "gutter": "20",
+      "outerGutter": "10px"
+    },
+    {
+      "name": "Medium",
+      "device": "Tablet",
+      "breakpoint": "768",
+      "breakpointMax": "991",
+      "columns": "12",
+      "container": "748px",
+      "containerPx": "748",
+      "gutter": "20",
+      "outerGutter": "20px"
+    },
+    {
+      "name": "Large",
+      "device": "Desktop",
+      "breakpointMin": "992",
+      "columns": "12",
+      "container": "960px",
+      "containerPx": "960",
+      "gutter": "20",
+      "outerGutter": "26px"
+    }
+  ],
+  "fixed": [
+    {
+      "name": "Medium",
+      "device": "Tablet",
+      "containerPx": "748",
+      "textFluid": "Fluid bootstrap grid",
+      "textFixed": "Fixed to 300px"
+    },
+    {
+      "name": "Large",
+      "device": "Desktop",
+      "containerPx": "960",
+      "textFluid": "Fluid bootstrap grid",
+      "textFixed": "Fixed to 300px"
+    }
+  ]
+}

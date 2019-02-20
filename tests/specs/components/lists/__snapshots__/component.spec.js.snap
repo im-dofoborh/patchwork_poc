@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentList component renders default variant 1`] = `<ul class="sg-component-list"></ul>`;
+
+exports[`ComponentList component renders with multiple components 1`] = `
+<ul class="sg-component-list">
+  <li class="sg-component-list__item">
+    <div class="sg-component-list__icon"><a href="#/components/list?search=atom" class="">
+        <div title="atom" class="sg-letter-icon" style="width: 30px;">
+          <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(33, 189, 255); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+            A
+          </div>
+        </div>
+      </a></div>
+    <h2 class="sg-component-list__heading heading-3 mb-sm"><a href="#/family1/name1" class="">
+
+      </a></h2>
+    <p class="sg-component-list__description body-copy mb-sm">
+      This is a component
+    </p>
+    <div class="sg-tag-list mb-md">
+      <h3 class="sg-tag-list__title">Tags</h3>
+      <ul class="sg-tag-list__list">
+        <li><a href="#/components/list?search=tag%201" class=""><span class="sg-tag-list__item">
+          Tag 1
+        </span> <span class="sg-tag-list__seperator body-copy-small">
+          |
+        </span></a><a href="#/components/list?search=tag%202" class=""><span class="sg-tag-list__item">
+          Tag 2
+        </span>
+            <!----></a></li>
+      </ul>
+    </div>
+  </li>
+  <li class="sg-component-list__item">
+    <div class="sg-component-list__icon"><a href="#/components/list?search=molecule" class="">
+        <div title="molecule" class="sg-letter-icon" style="width: 30px;">
+          <div class="sg-letter-icon__inner" style="height: 30px; width: 30px; background-color: rgb(27, 151, 204); color: rgb(255, 255, 255); font-size: 16.666666666666668px;">
+            M
+          </div>
+        </div>
+      </a></div>
+    <h2 class="sg-component-list__heading heading-3 mb-sm"><a href="#/family2/name2" class="">
+
+      </a></h2>
+    <p class="sg-component-list__description body-copy mb-sm">
+      This is another component
+    </p>
+    <div class="sg-tag-list mb-md">
+      <h3 class="sg-tag-list__title">Tags</h3>
+      <ul class="sg-tag-list__list">
+        <li><a href="#/components/list?search=tag%203" class=""><span class="sg-tag-list__item">
+          Tag 3
+        </span> <span class="sg-tag-list__seperator body-copy-small">
+          |
+        </span></a><a href="#/components/list?search=tag%204" class=""><span class="sg-tag-list__item">
+          Tag 4
+        </span>
+            <!----></a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+`;

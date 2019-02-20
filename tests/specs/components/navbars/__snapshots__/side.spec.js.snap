@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNavbar component renders default variant 1`] = `
+<nav class="sg-side-nav">
+  <section class="hidden-md-up">
+    <div class="sg-side-nav__menu">
+      <!---->
+      <ul class="sg-side-nav__list">
+        <li class="sg-side-nav__item "><a href="#/overview" class="sg-side-nav__link">
+            Overview
+          </a></li>
+        <li class="sg-side-nav__item "><a href="#/foundations" class="sg-side-nav__link">
+            Structural Foundations
+          </a></li>
+        <li class="sg-side-nav__item "><a href="#/components" class="sg-side-nav__link">
+            Component Library
+          </a></li>
+        <li class="sg-side-nav__item "><a href="#/language" class="sg-side-nav__link">
+            Visual Language
+          </a></li>
+      </ul>
+      <div class="sg-side-nav__divider"></div>
+    </div>
+  </section>
+  <!---->
+</nav>
+`;

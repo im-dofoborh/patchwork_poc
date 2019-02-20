@@ -1,0 +1,92 @@
+{
+  "recipe_data": {
+    "serving": {
+      "name": "Serves 8"
+    },
+    "total_time": {
+      "hours": "1",
+      "minutes": "30"
+    },
+    "difficulties": [{
+      "term_id": 1,
+      "name": "A Little Effort",
+      "slug": "a-little-effort",
+      "term_group": 0,
+      "term_taxonomy_id": 1,
+      "taxonomy": "difficulty",
+      "description": "",
+      "parent": 0,
+      "count": 222
+    }],
+    "prep_time": {
+      "hours": "",
+      "minutes": "20"
+    },
+    "cook_time": {
+      "hours": "1",
+      "minutes": "10"
+    },
+    "note": "Lorem ipsum dolor note"
+  },
+  "ingredients": [{
+    "header": "Vehicula Inceptos Venenatis",
+    "list": [{
+      "name": "Egestas Magna",
+      "quatity": "1",
+      "note": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    }, {
+      "name": "Pellentesque Etiam",
+      "quatity": "2",
+      "note": "Maecenas faucibus mollis interdum."
+    }, {
+      "name": "Vulputate Magna",
+      "quatity": "3",
+      "note": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    }]
+  }, {
+    "header": "Mattis Vehicula Pharetra",
+    "list": [{
+      "name": "Egestas Magna",
+      "quatity": "1",
+      "note": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+    }, {
+      "name": "Pellentesque Etiam",
+      "quatity": "2",
+      "note": "Maecenas faucibus mollis interdum."
+    }, {
+      "name": "Vulputate Magna",
+      "quatity": "3",
+      "note": "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    }]
+  }],
+  "method": [{
+    "header": "Ipsum Tellus Ultricies",
+    "list": [{
+      "note": "<p>Venenatis Purus Lorem Tortor</p>"
+    }, {
+      "note": "<p>Curabitur blandit tempus porttitor.</p>"
+    }, {
+      "note": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>"
+    }]
+  }, {
+    "header": "Ipsum Tellus Ultricies",
+    "list": [{
+      "note": "<p>Venenatis Purus Lorem Tortor</p>"
+    }, {
+      "note": "<p>Curabitur blandit tempus porttitor.</p>"
+    }, {
+      "note": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>"
+    }]
+  }],
+  "additional_info": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+  "nutrition_data": [{
+    "kcals": "567",
+    "fat": "32.2g",
+    "saturates": "21g",
+    "carbs": "63.3g",
+    "sugars": "46g",
+    "fibre": "1.4g",
+    "protein": "5g",
+    "salt": "0.4g"
+  }]
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuIcon component renders default variant 1`] = `
+<div class="sg-menu-icon">
+  <div class="sg-menu-icon__bar"></div>
+  <div class="sg-menu-icon__bar"></div>
+  <div class="sg-menu-icon__bar"></div>
+</div>
+`;
+
+exports[`MenuIcon component renders open variant 1`] = `
+<div class="sg-menu-icon sg-menu-icon--open">
+  <div class="sg-menu-icon__bar"></div>
+  <div class="sg-menu-icon__bar"></div>
+  <div class="sg-menu-icon__bar"></div>
+</div>
+`;

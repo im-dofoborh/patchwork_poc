@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component renders default variant 1`] = `
+<section class="sg-tabs">
+  <ul role="tablist" class="sg-tabs__nav">
+    <li class="sg-tabs__nav-item nav-item">
+      <h4 class="sg-tabs__nav-title body-copy-small"><strong>
+          Unknown
+        </strong></h4>
+    </li>
+  </ul>
+  <div class="sg-tabs__content"></div>
+</section>
+`;
+
+exports[`Tabs component renders with raw tab 1`] = `
+<section class="sg-tabs">
+  <ul role="tablist" class="sg-tabs__nav">
+    <li class="sg-tabs__nav-item nav-item">
+      <h4 class="sg-tabs__nav-title body-copy-small"><strong>
+          Unknown
+        </strong></h4>
+    </li>
+    <li role="tab" class="sg-tabs__nav-item nav-item"><a class="sg-tabs__nav-link body-copy-small">
+        foo
+      </a></li>
+  </ul>
+  <div class="sg-tabs__content">
+    <div role="tabpanel" class="sg-tabs__pane">
+      <!---->
+      <div>
+        <div class="bar">Baz</div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Tabs component renders with themed iFrame tab 1`] = `
+<section class="sg-tabs">
+  <ul role="tablist" class="sg-tabs__nav">
+    <li class="sg-tabs__nav-item nav-item">
+      <h4 class="sg-tabs__nav-title body-copy-small"><strong>
+          Unknown
+        </strong></h4>
+    </li>
+    <li role="tab" class="sg-tabs__nav-item nav-item"><a class="sg-tabs__nav-link body-copy-small">
+        foo
+      </a></li>
+  </ul>
+  <div class="sg-tabs__content">
+    <div role="tabpanel" class="sg-tabs__pane">
+      <no-ssr>
+        <themed-iframe-stub markup="<div class=&quot;bar&quot;>Baz</div>" wrapindocument="true" bodyclassnames="" size=""></themed-iframe-stub>
+      </no-ssr>
+      <!---->
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Tabs component renders with title 1`] = `
+<section class="sg-tabs">
+  <ul role="tablist" class="sg-tabs__nav">
+    <li class="sg-tabs__nav-item nav-item">
+      <h4 class="sg-tabs__nav-title body-copy-small"><strong>
+          Slate
+        </strong></h4>
+    </li>
+  </ul>
+  <div class="sg-tabs__content"></div>
+</section>
+`;
+
+exports[`Tabs component renders with variables tab 1`] = `
+<section class="sg-tabs">
+  <ul role="tablist" class="sg-tabs__nav">
+    <li class="sg-tabs__nav-item nav-item">
+      <h4 class="sg-tabs__nav-title body-copy-small"><strong>
+          Unknown
+        </strong></h4>
+    </li>
+    <li role="tab" class="sg-tabs__nav-item nav-item"><a class="sg-tabs__nav-link body-copy-small">
+        foo
+      </a></li>
+  </ul>
+  <div class="sg-tabs__content">
+    <div role="tabpanel" class="sg-tabs__pane">
+      <!---->
+      <variables-table-stub variables="[object Object]" themename="Slate"></variables-table-stub>
+    </div>
+  </div>
+</section>
+`;

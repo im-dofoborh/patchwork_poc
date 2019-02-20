@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Caches
+.npm
+.eslintcache
+
+# Nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# Coverage
+coverage/

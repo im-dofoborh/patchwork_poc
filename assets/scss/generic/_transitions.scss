@@ -1,0 +1,9 @@
+// The default transition for all pages, as set in nuxt.config.js
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .1s
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0
+}

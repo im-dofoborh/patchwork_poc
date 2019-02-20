@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MockGrid component renders default variant 1`] = `
+<div class="sg-mock-grid container" style="width: 100px;">
+  <div class="sg-mock-grid__row row">
+    <div class="col-12">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+  <div class="sg-mock-grid__row row">
+    <div class="col-6">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-6">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+  <div class="sg-mock-grid__row row">
+    <div class="col-4">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-4">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-4">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+  <div class="sg-mock-grid__row row">
+    <div class="col-3">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-3">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-3">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-3">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+  <div class="sg-mock-grid__row row">
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-2">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+  <div class="sg-mock-grid__row row">
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+    <div class="col-1">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MockGrid component renders fluid and fixed variant 1`] = `
+<div class="sg-mock-grid container" style="width: 100px;">
+  <div class="sg-mock-grid__row row">
+    <div class="sg-mock-grid__rail-container">
+      <div class="sg-mock-grid__rail sg-mock-grid__rail--primary">
+        <div class="sg-mock-grid__column">
+          Foo
+        </div>
+      </div>
+      <div class="sg-mock-grid__rail sg-mock-grid__rail--secondary">
+        <div class="sg-mock-grid__column sg-mock-grid__column--rail">
+          Bar
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MockGrid component renders with alternative columns 1`] = `
+<div class="sg-mock-grid container" style="width: 100px;">
+  <div class="sg-mock-grid__row row">
+    <div class="col-6">
+      <div class="sg-mock-grid__column"></div>
+    </div>
+  </div>
+</div>
+`;

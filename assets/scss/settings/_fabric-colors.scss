@@ -1,0 +1,70 @@
+// Copied from im-fabric
+//
+// If we're going to reruse themes accross platforms this should really
+// be importable as a versioned npm package.
+
+// Highlight shades
+$color--highlight--light:        #21bdff;
+$color--highlight--regular:      #007bb6;
+$color--highlight--dark:         #005982;
+
+// Clickable shades
+$color--clickable--light:        #ff533d;
+$color--clickable--regular:      #d63d2b;
+$color--clickable--dark:         #a32e21;
+
+// Interactive shades
+$color--interactive--light:      #30b89a;
+$color--interactive--regular:    #22856f;
+$color--interactive--dark:       #155245;
+
+// Base colours
+$color--base--white:             #fff;
+$color--base--black:             #000;
+$color--base--grey:              #0f2c3b;
+
+// Background colours
+$color--background--extra-light: #f3f4f5;
+$color--background--light:       #e7e9eb;
+$color--background--regular:     #cfd5d8;
+$color--background--dark:        #9fabb1;
+$color--background--extra-dark:  #687982;
+
+// Form colours
+$color--form--focus:             #219dff;
+$color--form--warning--regular:  #c00;
+$color--form--warning--light:    #f9e5e5;
+$color--form--warning--reversed: #fc6f6f;
+$color--form--success--regular:  #1f8343;
+$color--form--success--light:    #d8f2d8;
+$color--form--info--regular:     #31708f;
+$color--form--info--light:       #d9edf7;
+
+// Social colours
+$color--social--facebook:        #3b5998;
+$color--social--twitter:         #00aced;
+$color--social--pinterest:       #bd081c;
+$color--social--instagram:       #c32aa3;
+$color--social--googleplus:      #d84b37;
+$color--social--tumblr:          #36465d;
+$color--social--reddit:          #6999c2;
+$color--social--blogger:         #f89227;
+$color--social--vkontakt:        #507299;
+$color--social--whatsapp:        #1ebea5;
+
+// swatch colours
+$color--swatch--black: #000;
+$color--swatch--blue: #97cbfb;
+$color--swatch--green: #abe281;
+$color--swatch--orange: #fbd08e;
+$color--swatch--peach: #ffdcc9;
+$color--swatch--pink: #fb8eba;
+$color--swatch--purple: #bb63fa;
+$color--swatch--red: #ff5757;
+$color--swatch--white: #fff;
+$color--swatch--yellow: #fff383;
+$color--swatch--blue-green: #50e3c2;
+$color--swatch--bronze: #bb7721;
+$color--swatch--golden: #e1b03a;
+$color--swatch--silver: #c2bfbf;
+$color--swatch--variegation: linear-gradient(to right, $color--swatch--green, $color--swatch--yellow);
